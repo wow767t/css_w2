@@ -100,7 +100,12 @@ img{
 
 a{
     text-decoration: none;
+    
 }
+a:visited {
+    color:#FFF;
+    text-decoration:none;
+    }
 
 
 /* 全域border box */
@@ -172,6 +177,10 @@ a{
 .adBox-3{
     display: flex;
     justify-content: space-between;
+}
+.jcc{
+    display: flex;
+    justify-content: center;
 }
 /* footer */
 .contact{
